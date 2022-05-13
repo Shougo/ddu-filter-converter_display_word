@@ -16,7 +16,7 @@ export class Filter extends BaseFilter<Params> {
   }): Promise<DduItem[]> {
     for (const item of args.items) {
       if (item.display) {
-        item.word = item.display;
+        item.matcherKey = item.display;
       }
     }
     return Promise.resolve(args.items);

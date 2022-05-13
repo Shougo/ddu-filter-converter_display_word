@@ -33,7 +33,9 @@ EXAMPLES			*ddu-filter-converter_display_word-examples*
 	call ddu#custom#patch_global({
 	    \   'sourceOptions': {
 	    \     '_': {
-	    \       'converters': ['converter_display_word'],
+	    \       'matchers': [
+	    \         'converter_display_word', 'matcher_substring',
+	    \       ],
 	    \     },
 	    \   }
 	    \ })

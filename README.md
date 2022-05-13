@@ -19,7 +19,9 @@ https://github.com/Shougo/ddu.vim
 call ddu#custom#patch_global({
     \   'sourceOptions': {
     \     '_': {
-    \       'converters': ['converter_display_word'],
+    \       'converters': [
+    \         'converter_display_word', 'matcher_substring',
+    \       ],
     \     },
     \   }
     \ })
