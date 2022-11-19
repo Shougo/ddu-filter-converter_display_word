@@ -29,11 +29,10 @@ https://github.com/vim-denops/denops.vim
 ==============================================================================
 EXAMPLES			*ddu-filter-converter_display_word-examples*
 >
-	" Use the filter.
-	call ddu#custom#patch_global({
-	    \   'sourceOptions': {
-	    \     '_': {
-	    \       'matchers': [
+	call ddu#custom#patch_global(#{
+	    \   sourceOptions: #{
+	    \     _: #{
+	    \       matchers: [
 	    \         'converter_display_word', 'matcher_substring',
 	    \       ],
 	    \     },

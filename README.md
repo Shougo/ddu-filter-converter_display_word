@@ -15,11 +15,10 @@ https://github.com/Shougo/ddu.vim
 ## Configuration
 
 ```vim
-" Use the filter.
-call ddu#custom#patch_global({
-    \   'sourceOptions': {
-    \     '_': {
-    \       'converters': [
+call ddu#custom#patch_global(#{
+    \   sourceOptions: #{
+    \     _: #{
+    \       converters: [
     \         'converter_display_word', 'matcher_substring',
     \       ],
     \     },
