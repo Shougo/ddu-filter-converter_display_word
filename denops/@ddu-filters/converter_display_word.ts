@@ -9,7 +9,7 @@ type Params = Record<never, never>;
 
 export class Filter extends BaseFilter<Params> {
   // deno-lint-ignore require-await
-  async filter(args: {
+  override async filter(args: {
     denops: Denops;
     sourceOptions: SourceOptions;
     input: string;
@@ -23,7 +23,7 @@ export class Filter extends BaseFilter<Params> {
     return Promise.resolve(args.items);
   }
 
-  params(): Params {
+  override params(): Params {
     return {};
   }
 }
