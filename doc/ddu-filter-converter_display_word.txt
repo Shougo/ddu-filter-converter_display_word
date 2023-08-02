@@ -3,7 +3,7 @@
 Author: Shougo <Shougo.Matsu at gmail.com>
 License: MIT license
 
-CONTENTS				*ddu-filter-converter_display_word*
+CONTENTS                                   *ddu-filter-converter_display_word*
 
 Introduction		|ddu-filter-converter_display_word-introduction|
 Install			|ddu-filter-converter_display_word-install|
@@ -12,13 +12,13 @@ Params			|ddu-filter-converter_display_word-params|
 
 
 ==============================================================================
-INTRODUCTION		*ddu-filter-converter_display_word-introduction*
+INTRODUCTION                  *ddu-filter-converter_display_word-introduction*
 
-This converter convert "display" attribute to "word".
+This converter convert "display" attribute to "word"("matcherKey").
 
 
 ==============================================================================
-INSTALL				*ddu-filter-converter_display_word-install*
+INSTALL                            *ddu-filter-converter_display_word-install*
 
 Please install both "ddu.vim" and "denops.vim".
 
@@ -27,7 +27,7 @@ https://github.com/vim-denops/denops.vim
 
 
 ==============================================================================
-EXAMPLES			*ddu-filter-converter_display_word-examples*
+EXAMPLES                          *ddu-filter-converter_display_word-examples*
 >
 	call ddu#custom#patch_global(#{
 	    \   sourceOptions: #{
@@ -41,7 +41,7 @@ EXAMPLES			*ddu-filter-converter_display_word-examples*
 <
 
 ==============================================================================
-PARAMS				*ddu-filter-converter_display_word-params*
+PARAMS                              *ddu-filter-converter_display_word-params*
 
 
 ==============================================================================

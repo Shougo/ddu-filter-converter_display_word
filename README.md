@@ -1,6 +1,6 @@
 # ddu-filter-converter_display_word
 
-Convert display to word for ddu.vim
+Convert display to word(matcherKey) for ddu.vim
 
 ## Required
 
