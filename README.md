@@ -2,6 +2,8 @@
 
 Convert display to word(matcherKey) for ddu.vim
 
+NOTE: It must be applied before matchers.
+
 ## Required
 
 ### denops.vim
@@ -18,7 +20,7 @@ https://github.com/Shougo/ddu.vim
 call ddu#custom#patch_global(#{
     \   sourceOptions: #{
     \     _: #{
-    \       converters: [
+    \       matchers: [
     \         'converter_display_word', 'matcher_substring',
     \       ],
     \     },

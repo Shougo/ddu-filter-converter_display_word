@@ -16,6 +16,8 @@ INTRODUCTION                  *ddu-filter-converter_display_word-introduction*
 
 This converter convert "display" attribute to "word"("matcherKey").
 
+NOTE: It must be applied before matchers.
+
 
 ==============================================================================
 INSTALL                            *ddu-filter-converter_display_word-install*
